@@ -1,4 +1,4 @@
 Problem Description:
 A construction company wants to keep a record of the employees working in it.
-There are permanent employees as well as contract employees.
-Contract employees work on an hourly basis whereas permanent employees are paid monthly salary.
+There are permanent employees as well as contract employees. Salary = variable component + Basic pay +HRA
+Contract employees work on an hourly basis whereas permanent employees are paid monthly salary.Salary = total hours * wages
