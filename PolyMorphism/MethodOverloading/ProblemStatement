@@ -1,0 +1,9 @@
+Develop a Java Program Using Method Overloading
+
+Problem Description:
+Mysore United is a player's club which maintains the average rating of the players and sets their category based on the average rating obtained from the critics every month.
+The number of critics for the club varies from two to three.
+The PlayerRating class stores the details of the player and the class diagram is as shown below:
+
+
+********************************************************************************************************************8
