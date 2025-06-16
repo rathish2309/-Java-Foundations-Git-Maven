@@ -1,0 +1,7 @@
+Develop a Java Program Using Abstract Classes and Methods
+
+Problem Description: Peter wants to start a payment service portal for making payments for the credit card bill and online shopping.
+He will need a base class (RRPaymentServices) to store balance and customer ID information.
+He will use two classes- CreditCardPayment and ShoppingPayment for paying Credit card bills and shopping bills respectively.
+The bill payment and id generation is different for both payment modes.
+
