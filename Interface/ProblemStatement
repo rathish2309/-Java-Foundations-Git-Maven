@@ -1,0 +1,5 @@
+Develop a Java Program Using Interface
+
+Problem Description: The DataProvider provides an efficient way for students to calculate their overall percentage of all the courses.
+The totalMaximumMarks for all courses is 8000. Intern studied in Institute A, where each semester comprises of 1000 marks, in which 900 marks are for courses and 100 marks are kept for co-curricular activities (graceMarks).
+Whereas Trainee studied in Institute B where each semester comprises of 1000 marks for courses
