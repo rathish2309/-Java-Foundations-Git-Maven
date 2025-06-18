@@ -1,0 +1,16 @@
+Create a Java program that adds Student objects into a HashSet.
+The Student class has name and rollNumber as its attributes and a toString() method.
+If we add two Student objects having the same rollNumber to the HashSet, it should be considered as duplicate and should not get added.
+
+
+| Feature                                | `HashSet`                                            | `LinkedHashSet`                 | `TreeSet`                           |
+| -------------------------------------- | ---------------------------------------------------- | ------------------------------- | ----------------------------------- |
+| **Ordering**                           | No guaranteed order                                  | Maintains insertion order       | Sorted order (natural or custom)    |
+| **Underlying Structure**               | Hash table                                           | Hash table + Linked list        | Red-Black Tree (self-balancing BST) |
+| **Null Elements**                      | Allows one `null` element                            | Allows one `null` element       | ❌ Does **not** allow `null`         |
+| **Performance (Insert/Search/Delete)** | O(1) average time                                    | O(1) average time               | O(log n)                            |
+| **Duplicates**                         | Not allowed                                          | Not allowed                     | Not allowed                         |
+| **Maintains Order?**                   | ❌ No                                                 | ✅ Yes (insertion order)         | ✅ Yes (sorted order)                |
+| **Implements**                         | `Set`                                                | `Set`                           | `NavigableSet`, `SortedSet`, `Set`  |
+| **Thread-Safe**                        | ❌ No (use `Collections.synchronizedSet()` if needed) | ❌ No                            | ❌ No                                |
+| **Use Case**                           | Best for fast lookup, no order                       | When order of insertion matters | When you need sorted elements       |
