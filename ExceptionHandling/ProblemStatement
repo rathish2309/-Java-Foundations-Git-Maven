@@ -1,0 +1,19 @@
+Exercise Description :
+
+Create a class "Employee" with data members “empName",“empAge",“empSalary".
+
+Add appropriate get/set methods for the data members.
+
+Create an Exception class “EmpSalaryException" with an appropriate constructor.
+
+Create a class EmployeeService with the main() method.
+
+Write a method checkEmployeeSalary(Employee emp) in EmployeeService,  which checks if empSalary<1000 then throws EmpSalaryException.
+
+In the EmployeeService class main() method
+
+Create five objects of employee class by passing appropriate values to all the data members.
+
+Call checkEmployeeSalary() method for each of the five Employee objects being passed and handle the EmpSalaryException.
+
+Print the empName where the Salary is < 1000.
