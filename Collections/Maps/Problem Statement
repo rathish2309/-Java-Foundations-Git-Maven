@@ -1,0 +1,3 @@
+Modify the Student class created in 'Set-Collections - Exercise' to have an additional attribute totalMarks (not greater than 100).
+Calculate the grade for a student based on the total marks, as per the below mentioned conditions.
+Store it in a TreeMap containing roll number as the key and grade as the value.
