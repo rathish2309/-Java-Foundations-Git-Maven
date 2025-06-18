@@ -17,3 +17,14 @@ Create five objects of employee class by passing appropriate values to all the d
 Call checkEmployeeSalary() method for each of the five Employee objects being passed and handle the EmpSalaryException.
 
 Print the empName where the Salary is < 1000.
+
+
+*User Defined Exceptions*
+
+-- For checked exceptions
+   - we need to explicitly add exception in method signature , as we are extending the Exception class
+   - also add method signature in the method that we are using this compile time exception
+
+-- For unchecked exceptions ,
+   - we do not need to add exception in method signature , if we are extending the Runtime Exception class
+   - but if we are extending from Exception , then we have to mention the exception in method signature

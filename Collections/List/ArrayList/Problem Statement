@@ -1,0 +1,18 @@
+Exercise Description:
+
+Define an ArrayList of String and add any four names to it.
+Using ListIterator, traverse through the ArrayList first in forward and then in the reverse direction, and print the names to the console.
+
+Iterator - can move only forward and returns a Iterator<T>
+ListIterator - can move both forward and backward (hasNext()-next() | hasPrevious()-previous()) and returns ListIterator<T>
+
+
+Array List:
+1) It is used for storing collection of objects
+2) Used to Search operations - not suitable for add and delete because of continous memory allocation
+3) Can store duplicate and null values
+4) Insertion order is maintained
+5) Store both Homogeneous and Heterogeneous objects
+
+ArrayList<Integer> arr = new ArrayList<>(); -> Homegeneous
+ArrayList arr = new ArrayList(); -> Heterogeneous

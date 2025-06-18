@@ -1,0 +1,19 @@
+Exercise Description:
+
+Define a LinkedList of String and add any four names to it.
+
+Using 'for loop', traverse through the array and print the names to the console.
+
+Remove the first and the last element and print the list using 'advanced for loop'.
+
+Add new names at the first and last position and print the list using an iterator.
+
+Linked List:
+1) It is used for storing collection of objects as Array List
+2) Used to Add | Delete operations - not suitable for search because of nodes are stored in different memory location
+3) Can store duplicate and null values
+4) Insertion order is maintained
+5) Store both Homogeneous and Heterogeneous objects
+
+LinkedList<Integer> arr = new LinkedList<>(); -> Homegeneous
+LinkedList arr = new LinkedList(); -> Heterogeneous

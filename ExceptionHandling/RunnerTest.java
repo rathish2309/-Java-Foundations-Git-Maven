@@ -1,6 +1,9 @@
 package ExceptionHandling;
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 class Employee {
 
     private String empName;
@@ -72,8 +75,16 @@ public class RunnerTest {
         Employee e5 = new Employee("Elvis George",25,1425);
 
         RunnerTest runnerTest = new RunnerTest();
-        runnerTest.checkEmployeeSalary(e1);
-        runnerTest.checkEmployeeSalary(e3);
+//        runnerTest.checkEmployeeSalary(e1);
+//        runnerTest.checkEmployeeSalary(e3);
+
+        List<Employee> employeeList = new ArrayList<>();
+        employeeList.add(e1);
+        employeeList.add(e3);
+
+        for(Employee e : employeeList){
+            runnerTest.checkEmployeeSalary(e);
+        }
     }
 
 
