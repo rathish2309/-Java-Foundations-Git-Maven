@@ -1,7 +1,6 @@
-package FileHandling.File;
+package FileHandling_Examples.FileHandling.File;
 
 import java.io.*;
-import java.util.Scanner;
 
 public class FileHandling_Example {
 
